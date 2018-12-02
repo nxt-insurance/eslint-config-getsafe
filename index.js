@@ -80,6 +80,7 @@ module.exports = {
     'flowtype/space-after-type-colon': ['error', 'always'],
     'flowtype/space-before-generic-bracket': ['error', 'never'],
     'flowtype/space-before-type-colon': ['error', 'never'],
+    'flowtype/type-id-match': ['error', '^([A-Z]+[a-z0-9A-Z]*)$'],
     'flowtype/union-intersection-spacing': ['error', 'always'],
     'flowtype/use-flow-type': 'error',
     'flowtype/valid-syntax': 'error',
