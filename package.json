@@ -3,5 +3,14 @@
   "version": "0.0.0",
   "description": "Getsafe's ESLint config",
   "main": "index.js",
-  "author": "Getsafe"
+  "author": "Getsafe",
+  "devDependencies": {
+    "prettier": "^1.15.3"
+  },
+  "prettier": {
+    "semi": false,
+    "trailingComma": "es5",
+    "printWidth": 100,
+    "singleQuote": true
+  }
 }
