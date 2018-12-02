@@ -1,10 +1,10 @@
 {
   "name": "eslint-config-getsafe",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Getsafe's ESLint config",
   "main": "index.js",
   "author": "Getsafe",
-    "dependencies": {
+  "dependencies": {
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-flowtype": "^3.2.0",
