@@ -4,6 +4,8 @@
   "description": "Getsafe's ESLint config",
   "main": "index.js",
   "author": "Getsafe",
+  "license": "UNLICENSED",
+  "private": true,
   "dependencies": {
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.3.0",
