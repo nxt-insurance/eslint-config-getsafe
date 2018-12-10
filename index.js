@@ -18,27 +18,26 @@ module.exports = {
         singleQuote: true,
       },
     ],
-    curly: ['error', 'all'],
     camelcase: 'off',
+    curly: ['error', 'all'],
     eqeqeq: ['error', 'always'],
     radix: ['error', 'as-needed'],
     'arrow-body-style': 'off',
     'consistent-return': 'off',
     'global-require': 'off',
+    'no-await-in-loop': 'off',
     'no-console': ['error', { allow: ['error', 'groupCollapsed', 'groupEnd'] }],
     'no-else-return': 'off',
     'no-underscore-dangle': 'off',
+    'no-unused-expressions': 'off', // this rule is replaced by 'flowtype/no-unused-expressions'
     'prefer-destructuring': [
       'error',
       {
-        AssignmentExpression: {
-          array: false,
-          object: false,
-        },
+        AssignmentExpression: { array: false, object: false },
       },
     ],
     'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
-    'no-await-in-loop': 'off',
+
     'import/namespace': ['error', { allowComputed: true }],
     'import/prefer-default-export': 'off',
     'import/order': [
@@ -48,13 +47,16 @@ module.exports = {
         'newlines-between': 'always',
       },
     ],
+
     'jsx-a11y/anchor-is-valid': 'off',
+
     'promise/catch-or-return': 'error',
     'promise/no-callback-in-promise': 'error',
     'promise/no-nesting': 'error',
     'promise/no-return-in-finally': 'error',
     'promise/no-return-wrap': 'error',
     'promise/param-names': 'error',
+
     'react/destructuring-assignment': 'off',
     'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
     'react/jsx-indent': 'off',
