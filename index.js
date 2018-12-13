@@ -6,8 +6,9 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
+    'plugin:jsx-a11y/recommended',
   ],
-  plugins: ['flowtype', 'import', 'prettier', 'promise', 'react'],
+  plugins: ['flowtype', 'import', 'prettier', 'promise', 'react', 'jsx-a11y'],
   rules: {
     'prettier/prettier': [
       'error',
