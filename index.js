@@ -1,12 +1,6 @@
 module.exports = {
-  extends: [
-    'airbnb',
-    'plugin:flowtype/recommended',
-    'prettier',
-    'plugin:react/recommended',
-    'plugin:jsx-a11y/recommended',
-  ],
-  plugins: ['flowtype', 'import', 'prettier', 'promise', 'react', 'jsx-a11y'],
+  plugins: ['flowtype', 'import', 'prettier', 'promise', 'react'],
+  extends: ['plugin:flowtype/recommended', 'plugin:react/recommended', 'airbnb', 'prettier'],
   rules: {
     'prettier/prettier': [
       'error',
