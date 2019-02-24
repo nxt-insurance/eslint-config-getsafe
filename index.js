@@ -39,9 +39,9 @@ module.exports = {
 
     'import/no-anonymous-default-export': 'error',
     'import/no-named-default': 'error',
-    'import/default': 2,
+    'import/default': 'error',
     'import/dynamic-import-chunkname': ['error'],
-    'import/export': 2,
+    'import/export': 'error',
     'import/first': 'error',
     'import/named': 'error',
     'import/namespace': ['error', { allowComputed: true }],
