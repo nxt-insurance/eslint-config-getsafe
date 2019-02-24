@@ -82,14 +82,12 @@ module.exports = {
     'flowtype/array-style-simple-type': ['error', 'shorthand'],
     'flowtype/boolean-style': ['error', 'boolean'],
     'flowtype/define-flow-type': 'error',
-    'flowtype/generic-spacing': ['error', 'never'],
     'flowtype/newline-after-flow-annotation': ['error', 'never'],
-    "flowtype/no-dupe-keys": "error",
+    'flowtype/no-dupe-keys': 'error',
     'flowtype/no-primitive-constructor-types': 'error',
     'flowtype/no-types-missing-file-annotation': ['error'],
     'flowtype/no-unused-expressions': ['error'],
     'flowtype/no-weak-types': ['error', { any: false }],
-    'flowtype/object-type-delimiter': ['error', 'comma'],
     'flowtype/require-exact-type': ['error', 'always'],
     'flowtype/require-return-type': [
       'error',
@@ -99,6 +97,7 @@ module.exports = {
         excludeArrowFunctions: 'expressionsOnly',
       },
     ],
+    'flowtype/require-types-at-top': 'error',
     'flowtype/require-valid-file-annotation': [
       'error',
       'always',
