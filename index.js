@@ -4,8 +4,6 @@ module.exports = {
     'plugin:flowtype/recommended',
     'prettier',
     'plugin:react/recommended',
-    'plugin:import/errors',
-    'plugin:import/warnings',
     'plugin:jsx-a11y/recommended',
   ],
   plugins: ['flowtype', 'import', 'prettier', 'promise', 'react', 'jsx-a11y'],
@@ -39,8 +37,23 @@ module.exports = {
     ],
     'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
 
+    'import/no-anonymous-default-export': 'error',
+    'import/no-named-default': 'error',
+    'import/default': 2,
+    'import/dynamic-import-chunkname': ['error'],
+    'import/export': 2,
+    'import/first': 'error',
+    'import/named': 'error',
     'import/namespace': ['error', { allowComputed: true }],
-    'import/prefer-default-export': 'off',
+    'import/newline-after-import': 'error',
+    'import/no-deprecated': 'error',
+    'import/no-duplicates': 'error',
+    'import/no-mutable-exports': 'error',
+    'import/no-named-as-default': 'error',
+    'import/no-named-as-default-member': 'error',
+    'import/no-self-import': 'error',
+    'import/no-unresolved': ['error', { commonjs: true }],
+    'import/no-useless-path-segments': 'error',
     'import/order': [
       'error',
       {
@@ -48,8 +61,7 @@ module.exports = {
         'newlines-between': 'always',
       },
     ],
-
-    'jsx-a11y/anchor-is-valid': 'off',
+    'import/prefer-default-export': 'off',
 
     'promise/catch-or-return': 'error',
     'promise/no-callback-in-promise': 'error',
