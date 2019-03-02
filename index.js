@@ -103,5 +103,14 @@ module.exports = {
     'flowtype/type-import-style': ['error', 'declaration'],
     'flowtype/use-flow-type': 'error',
     'flowtype/valid-syntax': 'error',
+    // Disable stylistic rules. Prettier takes care of formatting.
+    'flowtype/delimiter-dangle': 'off',
+    'flowtype/generic-spacing': 'off',
+    'flowtype/object-type-delimiter': 'off',
+    'flowtype/semi': 'off',
+    'flowtype/space-after-type-colon': 'off',
+    'flowtype/space-before-generic-bracket': 'off',
+    'flowtype/space-before-type-colon': 'off',
+    'flowtype/union-intersection-spacing': 'off',
   },
 }
