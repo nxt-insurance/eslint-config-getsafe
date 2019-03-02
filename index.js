@@ -66,11 +66,13 @@ module.exports = {
 
     'react/destructuring-assignment': 'off',
     'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
-    'react/jsx-indent': 'off',
-    'react/jsx-one-expression-per-line': 'off',
     'react/no-danger': 'off',
     'react/prop-types': 'off',
     'react/require-default-props': 'off',
+    // Disable stylistic rules. Prettier takes care of formatting.
+    "react/jsx-wrap-multilines": "off",
+    'react/jsx-indent': 'off',
+    'react/jsx-one-expression-per-line': 'off',
 
     'flowtype/array-style-complex-type': ['error', 'shorthand'],
     'flowtype/array-style-simple-type': ['error', 'shorthand'],
