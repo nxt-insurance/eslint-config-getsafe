@@ -78,6 +78,7 @@ module.exports = {
     'flowtype/array-style-simple-type': ['error', 'shorthand'],
     'flowtype/boolean-style': ['error', 'boolean'],
     'flowtype/define-flow-type': 'error',
+    'flowtype/spread-exact-type': 'error',
     'flowtype/newline-after-flow-annotation': ['error', 'never'],
     'flowtype/no-dupe-keys': 'error',
     'flowtype/no-primitive-constructor-types': 'error',
