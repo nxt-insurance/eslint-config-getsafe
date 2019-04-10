@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['flowtype', 'import', 'prettier', 'promise', 'react'],
+  plugins: ['flowtype', 'import', 'prettier', 'promise', 'react', 'react-hooks'],
   extends: ['plugin:flowtype/recommended', 'plugin:react/recommended', 'airbnb', 'prettier'],
   rules: {
     'prettier/prettier': [
@@ -70,9 +70,12 @@ module.exports = {
     'react/prop-types': 'off',
     'react/require-default-props': 'off',
     // Disable stylistic rules. Prettier takes care of formatting.
-    "react/jsx-wrap-multilines": "off",
+    'react/jsx-wrap-multilines': 'off',
     'react/jsx-indent': 'off',
     'react/jsx-one-expression-per-line': 'off',
+
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'error',
 
     'flowtype/array-style-complex-type': ['error', 'shorthand'],
     'flowtype/array-style-simple-type': ['error', 'shorthand'],
