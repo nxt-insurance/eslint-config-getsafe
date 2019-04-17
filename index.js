@@ -18,6 +18,7 @@ module.exports = {
     'arrow-body-style': 'off',
     'consistent-return': 'off',
     'global-require': 'off',
+    'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
     'no-await-in-loop': 'off',
     'no-console': ['error', { allow: ['error', 'groupCollapsed', 'groupEnd'] }],
     'no-else-return': 'off',
