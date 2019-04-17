@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-getsafe",
-  "version": "8.6.0",
+  "version": "8.7.0",
   "description": "Getsafe's ESLint config",
   "main": "index.js",
   "author": "Getsafe",
