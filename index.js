@@ -19,6 +19,7 @@ module.exports = {
     'consistent-return': 'off',
     'global-require': 'off',
     'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
+    "no-async-promise-executor": "error",
     'no-await-in-loop': 'off',
     'no-console': ['error', { allow: ['error', 'groupCollapsed', 'groupEnd'] }],
     'no-else-return': 'off',
