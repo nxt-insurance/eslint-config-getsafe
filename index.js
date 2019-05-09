@@ -19,7 +19,7 @@ module.exports = {
     'consistent-return': 'off',
     'global-require': 'off',
     'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
-    "no-async-promise-executor": "error",
+    'no-async-promise-executor': 'error',
     'no-await-in-loop': 'off',
     'no-console': ['error', { allow: ['error', 'groupCollapsed', 'groupEnd'] }],
     'no-else-return': 'off',
@@ -89,7 +89,7 @@ module.exports = {
     'flowtype/no-primitive-constructor-types': 'error',
     'flowtype/no-types-missing-file-annotation': ['error'],
     'flowtype/no-unused-expressions': ['error'],
-    'flowtype/no-weak-types': ['error', { any: false }],
+    'flowtype/no-weak-types': 'error',
     'flowtype/require-exact-type': ['error', 'always'],
     'flowtype/require-return-type': [
       'error',
