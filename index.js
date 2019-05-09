@@ -49,7 +49,8 @@ module.exports = {
     'import/no-named-default': 'error',
     'import/no-self-import': 'error',
     'import/no-unresolved': ['error', { commonjs: true }],
-    'import/no-useless-path-segments': 'error',
+    'import/no-unused-modules': ['error', { unusedExports: true }],
+    'import/no-useless-path-segments': ['error', { noUselessIndex: true }],
     'import/order': [
       'error',
       {
