@@ -69,6 +69,7 @@ module.exports = {
 
     'react/destructuring-assignment': 'off',
     'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
+    'react/jsx-props-no-spreading': 'off',
     'react/no-danger': 'off',
     'react/prop-types': 'off',
     'react/require-default-props': 'off',
@@ -76,6 +77,7 @@ module.exports = {
     'react/jsx-wrap-multilines': 'off',
     'react/jsx-indent': 'off',
     'react/jsx-one-expression-per-line': 'off',
+    'react/jsx-curly-newline': 'off',
 
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'error',
