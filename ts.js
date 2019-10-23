@@ -1,4 +1,7 @@
 module.exports = {
+  plugins: [
+    "@typescript-eslint"
+  ],
   extends: [
     "airbnb",
     "plugin:@typescript-eslint/recommended",
@@ -12,16 +15,6 @@ module.exports = {
     "./rules/import.js",
     "./rules/prettier.js"
   ],
-  plugins: [
-    "@typescript-eslint"
-  ],
-  env: {
-    browser: true,
-    node: true,
-    jasmine: true,
-    jest: true,
-    es6: true
-  },
   rules: {
   },
   settings: {
