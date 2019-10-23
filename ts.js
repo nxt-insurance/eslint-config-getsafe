@@ -3,17 +3,17 @@ module.exports = {
     "@typescript-eslint"
   ],
   extends: [
-    "airbnb",
-    "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
+    "airbnb",
     "prettier",
+    "plugin:@typescript-eslint/recommended",
     "prettier/@typescript-eslint",
+    "./rules/prettier.js",
     "./rules/eslint.js",
-    "./rules/react-hooks.js",
-    "./rules/react.js",
-    "./rules/promise.js",
     "./rules/import.js",
-    "./rules/prettier.js"
+    "./rules/promise.js",
+    "./rules/react.js",
+    "./rules/react-hooks.js"
   ],
   rules: {
   },
