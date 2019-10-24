@@ -1,17 +1,15 @@
 module.exports = {
   plugins: ['@typescript-eslint'],
   extends: [
-    'plugin:react/recommended',
     'airbnb',
-    'prettier',
     'plugin:@typescript-eslint/recommended',
-    'prettier/@typescript-eslint',
-    require.resolve('./rules/prettier.js'),
     require.resolve('./rules/eslint.js'),
+    require.resolve('./rules/react.js'),
     require.resolve('./rules/import.js'),
     require.resolve('./rules/promise.js'),
-    require.resolve('./rules/react.js'),
     require.resolve('./rules/react-hooks.js'),
+    require.resolve('./rules/flowtype.js'),
+    require.resolve('./rules/prettier.js'),
   ],
   rules: {
     'react/jsx-filename-extension': ['error', { extensions: ['.tsx'] }],

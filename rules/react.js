@@ -1,5 +1,6 @@
 module.exports = {
   plugins: ['react'],
+  extends: ['plugin:react/recommended'],
   rules: {
     'react/destructuring-assignment': 'off',
     // override this rule if using extension .jsx or .tsx
@@ -13,5 +14,7 @@ module.exports = {
     'react/jsx-indent': 'off',
     'react/jsx-one-expression-per-line': 'off',
     'react/jsx-curly-newline': 'off',
+    'react/display-name': 'off',
+    'react/forbid-foreign-prop-types': 'off',
   },
 }

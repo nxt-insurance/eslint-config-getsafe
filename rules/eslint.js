@@ -20,6 +20,7 @@ module.exports = {
         AssignmentExpression: { array: false, object: false },
       },
     ],
+    'prefer-object-spread': 'off',
     'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
   },
 }

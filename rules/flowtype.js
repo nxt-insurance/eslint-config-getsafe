@@ -1,5 +1,6 @@
 module.exports = {
   plugins: ['flowtype'],
+  extends: ['plugin:flowtype/recommended'],
   rules: {
     'flowtype/array-style-complex-type': ['error', 'shorthand'],
     'flowtype/array-style-simple-type': ['error', 'shorthand'],
