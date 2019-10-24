@@ -1,8 +1,8 @@
 module.exports = {
   extends: [
-    'plugin:flowtype/recommended', 
-    'plugin:react/recommended', 
-    'airbnb', 
+    'plugin:flowtype/recommended',
+    'plugin:react/recommended',
+    'airbnb',
     'prettier',
     require.resolve('./rules/prettier.js'),
     require.resolve('./rules/eslint.js'),
@@ -10,6 +10,6 @@ module.exports = {
     require.resolve('./rules/promise.js'),
     require.resolve('./rules/react.js'),
     require.resolve('./rules/react-hooks.js'),
-    require.resolve('./rules/flowtype.js')
-  ]
+    require.resolve('./rules/flowtype.js'),
+  ],
 }

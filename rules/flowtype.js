@@ -41,5 +41,5 @@ module.exports = {
     'flowtype/space-before-generic-bracket': 'off',
     'flowtype/space-before-type-colon': 'off',
     'flowtype/union-intersection-spacing': 'off',
-  }
+  },
 }

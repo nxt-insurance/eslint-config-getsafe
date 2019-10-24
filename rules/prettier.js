@@ -1,14 +1,14 @@
 module.exports = {
-  plugins: ["prettier"],
+  plugins: ['prettier'],
   rules: {
-    "prettier/prettier": [
-      "error",
+    'prettier/prettier': [
+      'error',
       {
         semi: false,
-        trailingComma: "es5",
+        trailingComma: 'es5',
         printWidth: 100,
-        singleQuote: true
-      }
-    ]
-  }
+        singleQuote: true,
+      },
+    ],
+  },
 }
