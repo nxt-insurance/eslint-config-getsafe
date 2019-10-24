@@ -1,10 +1,9 @@
 module.exports = {
-  plugins: [
-    "react"
-  ],
+  plugins: ["react"],
   rules: {
     "react/destructuring-assignment": "off",
-    "react/jsx-filename-extension": ["error", { extensions: [".tsx"] }],
+    // override this rule if using extension .jsx or .tsx
+    "react/jsx-filename-extension": ["error", { extensions: [".js"] }],
     "react/jsx-props-no-spreading": "off",
     "react/no-danger": "off",
     "react/prop-types": "off",
