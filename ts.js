@@ -14,7 +14,7 @@ module.exports = {
     'react/jsx-filename-extension': ['error', { extensions: ['.tsx'] }],
     // Todo: investigate why eslint fails for typescript when
     // turn on below prop
-    'import/no-unused-modules': ['off'],
+    'import/no-unused-modules': 'off',
   },
   settings: {
     react: {
