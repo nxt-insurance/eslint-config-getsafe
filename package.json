@@ -1,12 +1,14 @@
 {
   "name": "eslint-config-getsafe",
-  "version": "10.0.0",
+  "version": "11.0.0",
   "description": "Getsafe's ESLint config",
   "main": "index.js",
   "author": "Getsafe",
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
+    "@typescript-eslint/parser": "^2.4.0",
+    "eslint": "^6.5.1",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-cypress": "^2.7.0",
@@ -16,7 +18,8 @@
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.16.0",
-    "eslint-plugin-react-hooks": "^2.1.2"
+    "eslint-plugin-react-hooks": "^2.1.2",
+    "typescript": "3.6.4"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
