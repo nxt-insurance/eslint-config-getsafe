@@ -9,6 +9,7 @@ module.exports = {
     'react/no-danger': 'off',
     'react/prop-types': 'off',
     'react/require-default-props': 'off',
+    'react/state-in-constructor': ['error', 'never'],
     // Disable stylistic rules. Prettier takes care of formatting.
     'react/jsx-wrap-multilines': 'off',
     'react/jsx-indent': 'off',
