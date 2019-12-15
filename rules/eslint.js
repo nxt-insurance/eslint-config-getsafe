@@ -12,6 +12,7 @@ module.exports = {
     'no-await-in-loop': 'off',
     'no-console': ['error', { allow: ['error', 'groupCollapsed', 'groupEnd'] }],
     'no-else-return': 'off',
+    'no-implicit-coercion': ['error', {}],
     'no-underscore-dangle': 'off',
     'no-unused-expressions': 'off',
     'prefer-destructuring': [
