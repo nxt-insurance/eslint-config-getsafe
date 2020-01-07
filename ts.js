@@ -1,19 +1,16 @@
 module.exports = {
-  plugins: ['@typescript-eslint'],
+  parser: '@typescript-eslint/parser',
   extends: [
     'airbnb',
-    'plugin:@typescript-eslint/recommended',
     require.resolve('./rules/eslint.js'),
     require.resolve('./rules/react.js'),
     require.resolve('./rules/import.js'),
     require.resolve('./rules/promise.js'),
     require.resolve('./rules/react-hooks.js'),
     require.resolve('./rules/prettier.js'),
+    require.resolve('./rules/typescript.js'),
   ],
-  rules: {
-    'react/jsx-filename-extension': ['error', { extensions: ['.tsx'] }],
-    '@typescript-eslint/explicit-function-return-type': 'off',
-  },
+  rules: {},
   settings: {
     react: {
       pragma: 'React',
@@ -31,5 +28,4 @@ module.exports = {
       },
     },
   },
-  parser: '@typescript-eslint/parser',
 }
