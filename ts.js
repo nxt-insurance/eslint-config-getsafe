@@ -12,18 +12,22 @@ module.exports = {
   ],
   rules: {
     'react/jsx-filename-extension': ['error', { extensions: ['.tsx'] }],
-    // Todo: investigate why eslint fails for typescript when
-    // turn on below prop
-    'import/no-unused-modules': 'off',
+    '@typescript-eslint/explicit-function-return-type': 'off',
   },
   settings: {
     react: {
       pragma: 'React',
       version: 'detect',
     },
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx', '.js', '.jsx'],
+    },
     'import/resolver': {
+      typescript: {
+        alwaysTryTypes: true, // always try to resolve types under `<root/>@types` directory even if it doesn't contain any source code, like `@types/unist`
+      },
       node: {
-        extensions: ['.ts', '.tsx'],
+        extensions: ['.ts', '.tsx', '.js', '.jsx'],
       },
     },
   },

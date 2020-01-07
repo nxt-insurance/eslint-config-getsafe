@@ -4,6 +4,16 @@ module.exports = {
     'import/default': 'error',
     'import/dynamic-import-chunkname': ['error'],
     'import/export': 'error',
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+      },
+    ],
     'import/first': 'error',
     'import/named': 'error',
     'import/namespace': ['error', { allowComputed: true }],
