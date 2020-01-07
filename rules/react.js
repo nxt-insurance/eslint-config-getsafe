@@ -4,7 +4,7 @@ module.exports = {
   rules: {
     'react/destructuring-assignment': 'off',
     // override this rule if using extension .jsx or .tsx
-    'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
+    'react/jsx-filename-extension': ['error', { extensions: ['.js, .jsx, .tsx'] }],
     'react/jsx-props-no-spreading': 'off',
     'react/no-danger': 'off',
     'react/prop-types': 'off',
