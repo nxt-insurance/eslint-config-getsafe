@@ -17,12 +17,12 @@ module.exports = {
       'error',
       {
         multiline: {
-          delimiter: 'comma',
-          requireLast: true,
+          delimiter: 'none',
+          requireLast: false,
         },
         singleline: {
           delimiter: 'comma',
-          requireLast: true,
+          requireLast: false,
         },
       },
     ],
