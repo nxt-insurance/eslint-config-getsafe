@@ -7,6 +7,7 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/member-delimiter-style': "off",
     '@typescript-eslint/no-extra-non-null-assertion': 'error',
+    "@typescript-eslint/no-explicit-any": "off",
     '@typescript-eslint/no-extraneous-class': 'error',
     '@typescript-eslint/no-parameter-properties': 'error',
     '@typescript-eslint/no-this-alias': 'error',
