@@ -8,6 +8,7 @@ module.exports = {
     'consistent-return': 'off',
     'global-require': 'off',
     'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
+    'max-classes-per-file': 'off',
     'no-async-promise-executor': 'error',
     'no-await-in-loop': 'off',
     'no-console': ['error', { allow: ['error', 'groupCollapsed', 'groupEnd'] }],
