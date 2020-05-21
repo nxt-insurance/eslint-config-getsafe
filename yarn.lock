@@ -477,10 +477,9 @@ eslint-plugin-flowtype@4.7.0:
   dependencies:
     lodash "^4.17.15"
 
-eslint-plugin-import@^2.20.1:
-  version "2.20.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.20.1.tgz#802423196dcb11d9ce8435a5fc02a6d3b46939b3"
-  integrity sha512-qQHgFOTjguR+LnYRoToeZWT62XM55MBVXObHM6SKFd1VzDcX/vqT1kAz8ssqigh5eMj8qXcRoXXGZpPP6RfdCw==
+"eslint-plugin-import@https://github.com/benmosher/eslint-plugin-import#master":
+  version "2.20.2"
+  resolved "https://github.com/benmosher/eslint-plugin-import#3f46ccfe203fa5aad5767699df339a9b2f0294e3"
   dependencies:
     array-includes "^3.0.3"
     array.prototype.flat "^1.2.1"
