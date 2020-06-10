@@ -8,6 +8,7 @@ module.exports = {
     'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx', '.tsx'] }],
     'react/jsx-props-no-spreading': 'off',
     'react/no-danger': 'off',
+    'react/no-unused-prop-types': 'off',
     'react/jsx-no-useless-fragment': 'error',
     'react/prop-types': 'off',
     'react/require-default-props': 'off',
