@@ -13,7 +13,6 @@ module.exports = {
     'flowtype/no-unused-expressions': ['error'],
     'flowtype/no-weak-types': ['error', { any: false }],
     'flowtype/require-exact-type': ['error', 'always'],
-    'flowtype/require-types-at-top': 'error',
     'flowtype/require-valid-file-annotation': [
       'error',
       'always',
