@@ -9,22 +9,23 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.3.0",
     "@typescript-eslint/parser": "^4.3.0",
-    "eslint": "^7.9.0",
-    "eslint-config-airbnb": "^18.1.0",
-    "eslint-config-prettier": "^6.10.1",
-    "eslint-import-resolver-typescript": "^2.0.0",
-    "eslint-plugin-cypress": "^2.10.3",
-    "eslint-plugin-flowtype": "5.1.3",
-    "eslint-plugin-import": "^2.21.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.2",
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-import-resolver-typescript": "^2.3.0",
+    "eslint-plugin-cypress": "^2.11.2",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^4.0.4"
+    "eslint-plugin-react": "^7.21.2",
+    "eslint-plugin-react-hooks": "^4.1.2"
   },
   "devDependencies": {
-    "prettier": "^2.0.2",
-    "typescript": "^3.8.3"
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.3",
+    "yarn-upgrade-all": "^0.5.4"
   },
   "prettier": {
     "semi": false,
@@ -33,6 +34,6 @@
     "singleQuote": true
   },
   "peerDependencies": {
-    "typescript": "^3.8.3"
+    "typescript": "^4.0.3"
   }
 }
