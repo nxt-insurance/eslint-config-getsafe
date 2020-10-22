@@ -4,6 +4,7 @@ module.exports = {
     curly: ['error', 'all'],
     eqeqeq: ['error', 'always'],
     radix: ['error', 'as-needed'],
+    quotes: ['error', 'single', { avoidEscape: true }],
     'arrow-body-style': 'off',
     'consistent-return': 'off',
     'global-require': 'off',
