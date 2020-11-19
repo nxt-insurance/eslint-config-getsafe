@@ -5,8 +5,8 @@ module.exports = {
     "prettier",
     "prettier/@typescript-eslint",
     "./rules/prettier.js",
-    "./rules/eslint.js",
     "./rules/import.js",
     "./rules/promise.js",
+    "./rules/eslint.js",
   ],
 };

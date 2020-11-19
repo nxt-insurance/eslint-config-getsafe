@@ -2,13 +2,13 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   extends: [
     'airbnb',
-    require.resolve('./rules/eslint.js'),
     require.resolve('./rules/react.js'),
     require.resolve('./rules/import.js'),
     require.resolve('./rules/promise.js'),
     require.resolve('./rules/react-hooks.js'),
     require.resolve('./rules/prettier.js'),
     require.resolve('./rules/typescript.js'),
+    require.resolve('./rules/eslint.js'),
   ],
   rules: {},
   settings: {
