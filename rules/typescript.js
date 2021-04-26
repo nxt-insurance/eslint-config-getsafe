@@ -20,6 +20,9 @@ module.exports = {
     '@typescript-eslint/prefer-for-of': 'error',
     '@typescript-eslint/prefer-optional-chain': 'error',
 
+    // we must disable the base rule as it can report incorrect errors
+    'no-use-before-define': 'off',
+
     // rules which are not yet released, enable with next update
     // '@typescript-eslint/no-unsafe-call': 'error',
     // '@typescript-eslint/no-unsafe-member-access': 'error',
